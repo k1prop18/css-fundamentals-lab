@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+}
+.centered-header {
+  text-align: center;
+}
+.centered image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: wheat;
+}
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+#details div {
+  float: left;
+  
+}
+
+.bottom-row {
+  display: flex;
+}
+
+.bottom-div {
+  flex-basis: 25%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
